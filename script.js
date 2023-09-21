@@ -23,6 +23,15 @@ class Cat extends Animal {
 	}
 }
 
+const myCat = new Cat("Siamese");
+const myDog = new Dog("Golder Retriever");
+
+console.log(`The ${myCat.species} makes a sound`);
+myCat.purr();
+
+console.log(`The ${myDog.species} makes a sound`);
+myDog.bark();
+
 // Do not change the code below this line
 window.Animal = Animal;
 window.Dog = Dog;
